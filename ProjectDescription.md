@@ -45,6 +45,8 @@ Example Rules:
 - Where appropriate, use the const keyword. 
 
 ## Part 2 - The Write Up - 10 points
-In Part 2 of this assignment, you will need to write a ~one-page document describing your scenario and the rules that you implemented. This needs to be detailed enough that I can understand what you are trying to accomplish without question. This includes **line numbers or names of functions for each rule that you create.**
+In Part 2 of this assignment, you will need to write a ~one-page document describing your scenario and the rules that you implemented. This needs to be detailed enough that I can understand what you are trying to accomplish without question. This includes **line numbers or names of functions for each rule that you create.** 
+
+You should call this file "Final_WriteUp" and it should be uploaded to your git repo. 
 
 ## Running your code
