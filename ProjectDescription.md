@@ -50,3 +50,29 @@ In Part 2 of this assignment, you will need to write a ~one-page document descri
 You should call this file "Final_WriteUp" and it should be uploaded to your git repo. 
 
 ## Running your code
+In general, it will be: 
+```
+g++ *.cpp
+or 
+g++ -std=c++20 *.cpp
+```
+If it is anything other than that you will need to let me know in your write-up.
+
+## Example of PrintGrid()
+```
+void Gameboard::PrintGrid()
+{
+	cout << "World at Day " << day << endl;
+	cout << " ---+---+---+---+---+---+---+--- " << endl;
+	for(int i = 0; i < 10; i++) 
+	{
+		cout << "| ";
+		for(int j = 0; j < 10; j++)
+		{
+			cout << grid[i][j] << " | ";
+		}
+		cout << endl;
+		cout << " ---+---+---+---+---+---+---+--- " << endl;
+	}
+} 
+```
