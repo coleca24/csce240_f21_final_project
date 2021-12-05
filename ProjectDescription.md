@@ -33,16 +33,16 @@ Example Rules:
 
 **Stopping Condition**: The 10x10 grid has filled up or 1000 years (rounds) have passed. 
 
-### Checklist:
-- Inherit from the World class provided
-- Implement the 3 pure virtual functions in the World class
-- Implement 10 distinct rules
-- Include at least 2 other objects as "characters" in your sim
-- Make sure that there is an option for printing each iteration of the sim to standard out
-- Make sure there is a clear stopping condition
-- Overload at least two operators in at least one of your objects
-- No memory leaks if you choose to use pointers in any way
-- Where appropriate, use the const keyword. 
+### Checklist (and points)
+- Inherit from the World class provided (5 points) 
+- Implement the 3 pure virtual functions in the World class (6 points - 2 points each)
+- Implement 10 distinct rules (30 points - 3 points each)
+- Include at least 2 other objects as "characters" in your sim (10 points - 5 for each class)
+- Make sure that there is an option for printing each iteration of the sim to standard out (5 points) 
+- Make sure there is a clear stopping condition (5 points)
+- Overload at least two operators in at least one of your objects (4 points - 2 points each)
+- No memory leaks if you choose to use pointers in any way (-5 points for memory leaks)
+- Where appropriate, use the const keyword. (-1-5 points if missing consts - depends on how many you are missing)
 
 ## Part 2 - The Write Up - 10 points
 In Part 2 of this assignment, you will need to write a ~one-page document describing your scenario and the rules that you implemented. This needs to be detailed enough that I can understand what you are trying to accomplish without question. This includes **line numbers or names of functions for each rule that you create.** 
@@ -53,8 +53,10 @@ You should call this file "Final_WriteUp" and it should be uploaded to your git 
 In general, it will be: 
 ```
 g++ *.cpp
+./a.out
 or 
 g++ -std=c++20 *.cpp
+./a.out
 ```
 If it is anything other than that you will need to let me know in your write-up.
 
